@@ -25,7 +25,7 @@ def home():
 @app.route('/scores')
 def scores():
     z_scores = redis_client.zrange(name="scoreboard:1", start=0, end=-1, desc=True, withscores=True)
-    z_scores = [{'player_id': score[0].decode, 'score': score[1]} for score in z_scores]  # can't jsonify bytes
+    z_scores = [{'player_id': score[0].decode(), 'score': score[1]} for score in z_scores]  # can't jsonify bytes
     return jsonify(scores=z_scores, last_updated_at=time.time())
 
 
