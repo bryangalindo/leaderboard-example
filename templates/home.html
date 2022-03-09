@@ -8,8 +8,8 @@
             await fetch("/scores")
                 .then(response => response.json())
                 .then(data => {
-                    var body = document.getElementById("scoreboard");
-                    body.textContent = JSON.stringify(data, null, 2)
+                    var preTag = document.getElementById("scoreboard");
+                    preTag.textContent = JSON.stringify(data, null, 2)
                 })
             await new Promise(r => setTimeout(r, 100));
         }
