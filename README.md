@@ -9,7 +9,7 @@ Welcome! This repository is an example of a simple implementation of a leaderboa
 2. Open a terminal window, and execute `redis-cli`.
 3. Type _ping_, and Redis should respond with _PONG_.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;![pingpong.png](pingpong.png)
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;![pingpong.png](static/img/pingpong.png)
 ### Cloning the Repository
 Using a terminal window, `cd` into your preferred directory, and execute the following command:
 ```
@@ -31,4 +31,4 @@ python app.py && python increase_score_task.py
 2. Navigate to [localhost:5000](http://127.0.0.1:5000).
 3. Click the **Start Streaming Scores** button and watch your leaderboard go!
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;![leaderboard.png](leaderboard.png)
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;![leaderboard.png](static/img/leaderboard.png)
