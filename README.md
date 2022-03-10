@@ -1,4 +1,4 @@
-# Real-time Leaderboard Walkthrough
+# Real-Time Leaderboard Walkthrough
 Welcome! This repository is an example of a simple implementation of a leaderboard/scoreboard using Python, JavaScript, and Redis.
 
 **Disclaimer**: This repository is for educational purposes and is not meant for production deployment. 
