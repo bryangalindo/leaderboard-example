@@ -26,7 +26,7 @@ pip install -r 'requirements.txt'
 ### Running the Application
 1. Execute the following command:
 ```
-python app.py && python increase_score_task.py
+python app.py & python increase_score_task.py
 ```
 2. Navigate to [localhost:5000](http://127.0.0.1:5000).
 3. Click the **Start Streaming Scores** button and watch your leaderboard go!
